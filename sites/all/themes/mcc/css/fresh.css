@@ -1,0 +1,158 @@
+#page {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+    }
+    html{
+      background-image: url(../images/bg-gradient_02.png);
+      background-repeat: repeat-x;
+      background-color: white;
+    }
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+html, body, header, nav, top-content, article, main-menu, footer {
+display: block;
+font-family: "Open Sans ";
+}
+h1, h2, h3 {
+font-family: "Open Sans Semibold";
+}
+h2 {
+font-size: 18px;
+text-transform: uppercase;
+color: black;
+}
+
+#header{
+  padding: 0;
+  display: inline;
+  clear: both;
+}
+
+#logo {
+ margin: 15px 70px;
+}
+
+#edit-search-block-form--2{
+  width: 220px;
+  height: 30px;
+}
+
+#block-search-form {
+  width: 220px;
+  margin-right:70px;
+  margin-top:-90px;
+  float: right;
+  text-align: left;
+
+  color: #ccc;
+}
+
+input[type="text"]{
+    background-color: white;
+    background-image: url(../images/search-icon_03.png);
+    background-repeat: no-repeat;
+    background-position: center right 10px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "Open Sans"
+  }
+
+#edit-actions{
+display: none;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    border-left: 1px solid rgba(153, 153, 153,  .30);
+    border-right: 1px solid rgba(153, 153, 153,  .30);
+
+    box-shadow: 20px 0 10px -12px rgba(153, 153, 153,  .25) , -20px 0 10px -12px rgba(153, 153, 153,  .25);
+    -moz-box-shadow: 20px 0 10px -12px rgba(153, 153, 153,  .25), -20px 0 10px -12px rgba(153, 153, 153,  .25);
+    -webkit-box-shadow: 20px 0 10px -12px rgba(153, 153, 153,  .25), -20px 0 10px -12px rgba(153, 153, 153,  .25);
+}
+
+#navigation{
+height: 50px;
+background: #3c7a8c;
+padding: 0px;
+margin-bottom: 0px;
+position: relative;
+   }
+
+h2.block-title{
+  text-transform: capitalize;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans";
+  padding-top: 11px;
+  padding-bottom: 16px;
+
+}
+#navigation .block{
+  float: right;
+  background-image: url(../image/footer-logo_03.png);
+  background-repeat: no-repeat;
+  margin-right: 70px;
+}
+
+#main{
+  padding-top: 0;
+}
+
+#content{
+    padding: 0;
+    margin-top: 0px;
+
+  }
+#content p{
+  font-size: 16px;
+  margin: 50px 70px 0 70px;
+  line-height: 30px;
+}
+#content h2.block-title{
+  text-transform: capitalize;
+  color: #202020;
+  font-size: 24px;
+  font-family: "Open Sans";
+}
+#block-system-main-menu h2.block__title.block-title{
+
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+  padding-left: 20px;
+  margin: 25 70 0 70px;
+}
+#block-system-main-menu h2.block__title.block-title::before{
+  margin-left: -50%;
+  text-align: right;
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 1px;
+  background-color: #202020;
+}
+#block-system-main-menu h2.block__title.block-title::after{
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 1px;
+  background-color: #202020;
+}
+#block-system-main-menu ul.menu {
+  border: 1px solid red;
+  height: 560px;}
+  li {
+  list-style: none !important;
+}
+
+.front footer {
+    width:960px;
+    margin:0 auto;
+    background: #e1e1e1;}
